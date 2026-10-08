@@ -9,7 +9,7 @@ export interface Party {
 
 export const PARTIES: Party[] = [
   { id: "psoe", handle: "PSOE", name: "PSOE", side: "left" },
-  { id: "sumar", handle: "sumar", name: "Sumar", side: "left" },
+  { id: "podemos", handle: "Podemos", name: "Podemos", side: "left" },
   { id: "pp", handle: "PPopular", name: "PP", side: "right" },
   { id: "vox", handle: "vox_es", name: "VOX", side: "right" },
 ];

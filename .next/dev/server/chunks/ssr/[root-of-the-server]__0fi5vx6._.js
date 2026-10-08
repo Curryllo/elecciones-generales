@@ -2391,9 +2391,9 @@ const PARTIES = [
         side: "left"
     },
     {
-        id: "sumar",
-        handle: "sumar",
-        name: "Sumar",
+        id: "podemos",
+        handle: "Podemos",
+        name: "Podemos",
         side: "left"
     },
     {
