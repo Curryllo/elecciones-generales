@@ -8,7 +8,7 @@ export function Stats() {
   return (
     <section aria-label="Cifras clave del 29 de noviembre">
       <div className="container-page py-14 sm:py-16">
-        <div className="grid grid-cols-2 border-l border-t border-line sm:grid-cols-3">
+        <div className="grid grid-cols-3 border-l border-t border-line">
           {STATS.map((stat) => (
             <div
               key={stat.label}

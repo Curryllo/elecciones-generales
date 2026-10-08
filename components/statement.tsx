@@ -18,7 +18,6 @@ export function Statement() {
             noviembre.
           </p>
           <p className="mt-5 max-w-lg text-sm leading-relaxed text-muted">
-            Esta web reúne datos, prensa y mensajes oficiales de los partidos.
             No somos la administración electoral ni trabajamos para ningún
             partido.
           </p>

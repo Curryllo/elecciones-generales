@@ -1,4 +1,5 @@
-{"timestamp":"00:00:01.007","source":"Server","level":"LOG","message":""}
-{"timestamp":"00:00:09.931","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
-{"timestamp":"00:00:58.811","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
-{"timestamp":"00:01:12.010","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:00:01.011","source":"Server","level":"LOG","message":""}
+{"timestamp":"00:00:02.832","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:08:47.455","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:08:47.597","source":"Browser","level":"WARN","message":"Image with src \"/Congreso.jpg\" was detected as the Largest Contentful Paint (LCP). Please add the `loading=\"eager\"` property if this image is above the fold.\nRead more: https://nextjs.org/docs/app/api-reference/components/image#loading"}
+{"timestamp":"00:08:47.642","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mImage with src \\\"/Congreso.jpg\\\" was detected as the Largest Contentful Paint (LCP). Please add the `loading=\\\"eager\\\"` property if this image is above the fold.\\nRead more: https://nextjs.org/docs/app/api-reference/components/image#loading\\u001b[39m\""}

@@ -74,7 +74,7 @@ export function Congress() {
           </h2>
           <p className="mt-4 text-pretty leading-relaxed text-muted">
             Así quedó la Cámara tras las elecciones de julio de 2023. El 29 de
-            noviembre se renuevan los 350 escaños.
+            noviembre se renueva.
           </p>
         </Reveal>
 
@@ -101,15 +101,15 @@ export function Congress() {
 
           <div className="mt-8 text-center">
             <p className="text-sm leading-relaxed text-muted">
-              Otros grupos parlamentarios suman {OTHER_SEATS} escaños. Los
-              cuatro grandes, {TOTAL_SEATS - OTHER_SEATS} de {TOTAL_SEATS}.
+               Los cuatro grandes partidos suman, {TOTAL_SEATS - OTHER_SEATS} de {TOTAL_SEATS}.
+              Otros grupos parlamentarios {OTHER_SEATS} escaños.
             </p>
-            <p className="mt-3 font-mono text-[11px] uppercase tracking-widest text-muted">
+            {/*<p className="mt-3 font-mono text-[11px] uppercase tracking-widest text-muted">
               La anchura completa de cada barra equivale a 176 escaños
-            </p>
-            <p className="mt-6 font-mono text-[11px] uppercase tracking-widest text-muted">
+            </p>*/}
+            {/* <p className="mt-6 font-mono text-[11px] uppercase tracking-widest text-muted">
               Resultados oficiales del 23 de julio de 2023
-            </p>
+            </p> */}
           </div>
         </Reveal>
       </div>
