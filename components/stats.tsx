@@ -1,7 +1,7 @@
 const STATS = [
   { value: "350", label: "escaños del Congreso" },
   { value: "176", label: "para mayoría absoluta" },
-  { value: "52", label: "circunscripciones" },
+  { value: "52", label: "provincias" },
 ];
 
 export function Stats() {
