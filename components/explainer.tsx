@@ -36,7 +36,7 @@ export function Explainer() {
                 alt="Fachada del Congreso de los Diputados en Madrid"
                 fill
                 sizes="(min-width: 1024px) 50vw, 100vw"
-                className="object-cover object-[center_35%]"
+                className="object-cover object-[center_15%]"
               />
             </div>
           </Reveal>

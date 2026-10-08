@@ -83,7 +83,7 @@ export function Footer() {
       <div className="border-t border-line">
         <div className="container-page flex flex-col gap-2 py-5 font-mono text-[11px] uppercase tracking-widest text-muted sm:flex-row sm:items-center sm:justify-between">
           <span>29N · 2026</span>
-          <span>Datos actualizados cada 5 minutos</span>
+          <span>Datos actualizados</span>
         </div>
       </div>
     </footer>

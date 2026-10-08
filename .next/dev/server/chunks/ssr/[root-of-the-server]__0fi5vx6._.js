@@ -557,7 +557,7 @@ function Explainer() {
                                 alt: "Fachada del Congreso de los Diputados en Madrid",
                                 fill: true,
                                 sizes: "(min-width: 1024px) 50vw, 100vw",
-                                className: "object-cover object-[center_35%]"
+                                className: "object-cover object-[center_15%]"
                             }, void 0, false, {
                                 fileName: "[project]/components/explainer.tsx",
                                 lineNumber: 34,
@@ -924,7 +924,7 @@ function Footer() {
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                            children: "Datos actualizados cada 5 minutos"
+                            children: "Datos actualizados"
                         }, void 0, false, {
                             fileName: "[project]/components/footer.tsx",
                             lineNumber: 86,
@@ -1759,7 +1759,7 @@ function Stats() {
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "grid grid-cols-3 border-l border-t border-line",
                 children: STATS.map((stat)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "border-b border-r border-line px-5 py-7 text-center sm:px-6 sm:py-8",
+                        className: "border-b border-r border-line px-2 py-7 text-center sm:px-6 sm:py-8",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "font-mono text-3xl font-medium tabular-nums tracking-tight sm:text-4xl",
@@ -1998,7 +1998,7 @@ async function Tweets() {
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                             className: "mt-4 text-pretty leading-relaxed text-muted",
-                            children: "Los últimos mensajes en X de las cuatro grandes formaciones, a la misma altura y en el mismo formato, para leerlos sin favoritismos."
+                            children: "Los últimos mensajes en X de las cuatro grandes formaciones, a la misma altura y en el mismo formato, sin favoritismos."
                         }, void 0, false, {
                             fileName: "[project]/components/tweets.tsx",
                             lineNumber: 108,

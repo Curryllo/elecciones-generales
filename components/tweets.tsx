@@ -107,7 +107,7 @@ export async function Tweets() {
           </h2>
           <p className="mt-4 text-pretty leading-relaxed text-muted">
             Los últimos mensajes en X de las cuatro grandes formaciones, a la
-            misma altura y en el mismo formato, para leerlos sin favoritismos.
+            misma altura y en el mismo formato, sin favoritismos.
           </p>
         </Reveal>
 
