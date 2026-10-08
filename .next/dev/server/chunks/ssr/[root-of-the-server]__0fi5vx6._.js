@@ -1269,7 +1269,7 @@ async function News() {
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                             className: "mt-4 text-pretty leading-relaxed text-muted",
-                            children: "Titulares de El País, El Mundo, ABC y La Vanguardia sobre la campaña, ordenados por fecha. Cada noticia enlaza a su medio de origen."
+                            children: "Titulares de El País, El Mundo, ABC y La Razón sobre la campaña, ordenados por fecha. Cada noticia enlaza a su medio de origen."
                         }, void 0, false, {
                             fileName: "[project]/components/news.tsx",
                             lineNumber: 65,
@@ -2685,9 +2685,9 @@ const NEWS_SOURCES = [
         site: "site:abc.es"
     },
     {
-        id: "lavanguardia",
-        name: "La Vanguardia",
-        site: "site:lavanguardia.com"
+        id: "larazon",
+        name: "La Razon",
+        site: "site:larazon.es"
     }
 ];
 const ELECTIONS_TOPIC = '(elecciones OR electoral OR "29-N" OR campaña OR Congreso OR votación)';

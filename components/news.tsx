@@ -63,7 +63,7 @@ export async function News() {
             Lo que se cuenta hoy
           </h2>
           <p className="mt-4 text-pretty leading-relaxed text-muted">
-            Titulares de El País, El Mundo, ABC y La Vanguardia sobre la
+            Titulares de El País, El Mundo, ABC y La Razón sobre la
             campaña, ordenados por fecha. Cada noticia enlaza a su medio de
             origen.
           </p>

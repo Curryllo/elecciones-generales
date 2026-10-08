@@ -1,4 +1,4 @@
-export type SourceId = "elpais" | "elmundo" | "abc" | "lavanguardia";
+export type SourceId = "elpais" | "elmundo" | "abc" | "larazon";
 
 export interface NewsSource {
   id: SourceId;
@@ -10,7 +10,7 @@ export const NEWS_SOURCES: NewsSource[] = [
   { id: "elpais", name: "El País", site: "site:elpais.com" },
   { id: "elmundo", name: "El Mundo", site: "site:elmundo.es" },
   { id: "abc", name: "ABC", site: "site:abc.es" },
-  { id: "lavanguardia", name: "La Vanguardia", site: "site:lavanguardia.com" },
+  { id: "larazon", name: "La Razon", site: "site:larazon.es" },
 ];
 
 export const ELECTIONS_TOPIC =
