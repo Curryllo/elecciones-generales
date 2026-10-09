@@ -40,6 +40,7 @@
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 6rem;
+  overflow-x: clip;
 }
 
 body {
@@ -61,6 +62,16 @@ body {
 
 @media (min-width: 40rem) {
   .container-page {
+    padding-inline: 2rem;
+  }
+}
+
+.tweets-container {
+  padding-inline: 0.75rem;
+}
+
+@media (min-width: 40rem) {
+  .tweets-container {
     padding-inline: 2rem;
   }
 }

@@ -17,7 +17,7 @@ function FeedCell({ feed }: { feed: PartyFeed }) {
   const latest = tweets.slice(0, 2);
 
   return (
-    <article className="rounded-2xl border border-line bg-canvas p-5 sm:p-6">
+    <article className="min-w-0 rounded-2xl border border-line bg-canvas p-5 sm:p-6">
       <header className="flex items-center gap-3">
         {avatar ? (
           <Image
@@ -53,7 +53,7 @@ function FeedCell({ feed }: { feed: PartyFeed }) {
               key={tweet.id}
               className={index > 0 ? "border-t border-line pt-4" : ""}
             >
-              <p className="line-clamp-4 text-sm leading-relaxed">
+              <p className="line-clamp-4 text-sm leading-relaxed [overflow-wrap:anywhere]">
                 {tweet.text}
               </p>
               <div className="mt-2 flex items-center justify-between gap-3">
@@ -100,7 +100,7 @@ export async function Tweets() {
 
   return (
     <section id="partidos" className="scroll-mt-24 border-y border-line bg-surface">
-      <div className="container-page py-16 sm:py-24">
+      <div className="container-page tweets-container py-16 sm:py-24">
         <Reveal className="mx-auto max-w-2xl text-center">
           <h2 className="text-3xl font-medium tracking-tight sm:text-4xl">
             Lo que dicen los partidos
@@ -112,7 +112,7 @@ export async function Tweets() {
         </Reveal>
 
         <Reveal className="mt-12">
-          <div className="mb-4 hidden grid-cols-2 gap-6 lg:grid">
+          <div className="mb-4s hidden grid-cols-2 gap-6 lg:grid">
             <div className="text-right font-mono text-[11px] uppercase tracking-widest text-muted">
               {SIDE_LABEL.left}
             </div>

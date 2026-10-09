@@ -1,7 +1,7 @@
 export function TweetsSkeleton() {
   return (
     <section aria-busy="true" aria-label="Cargando mensajes de los partidos" className="border-y border-line bg-surface">
-      <div className="container-page py-16 sm:py-24">
+      <div className="container-page tweets-container py-16 sm:py-24">
         <div className="mx-auto h-9 w-64 animate-pulse rounded bg-line" />
         <div className="mx-auto mt-4 h-4 w-96 max-w-full animate-pulse rounded bg-line" />
         <div className="mt-12 grid gap-6 lg:grid-cols-2">
