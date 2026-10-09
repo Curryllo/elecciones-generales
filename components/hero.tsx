@@ -19,7 +19,7 @@ export function Hero() {
             Elecciones generales · domingo 29 de noviembre
           </p>
           <h1 className="mt-6 max-w-3xl text-balance text-4xl font-medium tracking-tight sm:text-5xl lg:text-6xl">
-            Las elecciones del 29N, explicadas con calma
+            Las elecciones del 29N, explicadas
           </h1>
           <p className="mt-6 max-w-xl text-pretty text-base leading-relaxed text-muted sm:text-lg">
             Datos, prensa y mensajes oficiales de los partidos en un solo

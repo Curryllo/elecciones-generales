@@ -337,13 +337,11 @@ function Congress() {
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 className: "text-sm leading-relaxed text-muted",
                                 children: [
-                                    "Los cuatro grandes partidos suman, ",
+                                    "Los cuatro grandes partidos suman ",
                                     __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$parties$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["TOTAL_SEATS"] - __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$parties$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["OTHER_SEATS"],
-                                    " de ",
-                                    __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$parties$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["TOTAL_SEATS"],
-                                    ". Otros grupos parlamentarios ",
+                                    " escaños. Otros grupos parlamentarios, ",
                                     __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$parties$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["OTHER_SEATS"],
-                                    " escaños."
+                                    "."
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/congress.tsx",
@@ -1001,7 +999,7 @@ function Hero() {
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                             className: "mt-6 max-w-3xl text-balance text-4xl font-medium tracking-tight sm:text-5xl lg:text-6xl",
-                            children: "Las elecciones del 29N, explicadas con calma"
+                            children: "Las elecciones del 29N, explicadas"
                         }, void 0, false, {
                             fileName: "[project]/components/hero.tsx",
                             lineNumber: 21,

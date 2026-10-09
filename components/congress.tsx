@@ -101,8 +101,8 @@ export function Congress() {
 
           <div className="mt-8 text-center">
             <p className="text-sm leading-relaxed text-muted">
-               Los cuatro grandes partidos suman, {TOTAL_SEATS - OTHER_SEATS} de {TOTAL_SEATS}.
-              Otros grupos parlamentarios {OTHER_SEATS} escaños.
+               Los cuatro grandes partidos suman {TOTAL_SEATS - OTHER_SEATS} escaños.
+              Otros grupos parlamentarios, {OTHER_SEATS}.
             </p>
             {/*<p className="mt-3 font-mono text-[11px] uppercase tracking-widest text-muted">
               La anchura completa de cada barra equivale a 176 escaños
