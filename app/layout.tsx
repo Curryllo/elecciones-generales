@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
@@ -21,6 +21,13 @@ export const metadata: Metadata = {
   },
   description:
     "Información neutral sobre las elecciones generales del domingo 29 de noviembre de 2026: el Congreso, el calendario, la prensa y los mensajes de los partidos, en un solo lugar.",
+};
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  minimumScale: 1,
+  userScalable: true,
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
